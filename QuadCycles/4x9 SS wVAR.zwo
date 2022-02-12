@@ -1,0 +1,30 @@
+<workout_file>
+    <author>J.Gomez (TeamQuad)</author>
+    <name>4 x 9 min SS w variations</name>
+    <description>Some spinups to get the blood flowing, then 4 sets  of  Z3/4-5 (alternating tempo,FTP+, x3, plus 3 mins at SS),  9 min sets with 3.5 min recoveries.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="270" PowerLow="0.40449998" PowerHigh="0.60449994" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.75449997" pace="1428186484" Cadence="90"/>
+        <SteadyState Duration="60" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30.000002" Power="0.75449997" pace="1428186484" Cadence="95"/>
+        <SteadyState Duration="60" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30.000002" Power="0.80448025" pace="1428186484" Cadence="100"/>
+        <SteadyState Duration="60" Power="0.50449997" pace="1428186484"/>
+        <IntervalsT Repeat="3" OnDuration="45" OffDuration="75" OnPower="0.80449992" OffPower="1.0045" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.92449993" pace="1428186484"/>
+        <SteadyState Duration="210" Power="0.50449997" pace="1428186484"/>
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.82449996" OffPower="1.0345" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.92449993" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.5" pace="1428186484"/>
+        <IntervalsT Repeat="3" OnDuration="75" OffDuration="45" OnPower="0.83449996" OffPower="1.0845" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.92449993" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.50449997" pace="1428186484"/>
+        <IntervalsT Repeat="3" OnDuration="90" OffDuration="30" OnPower="0.85449994" OffPower="1.1545" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.92449993" pace="1428186484"/>
+        <Cooldown Duration="330" PowerLow="0.60449994" PowerHigh="0.40449998" pace="1428186484"/>
+    </workout>
+</workout_file>

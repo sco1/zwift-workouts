@@ -1,0 +1,22 @@
+<workout_file>
+    <author>J.Gomez (TeamQuad)</author>
+    <name>3 sets  6 x 1min on/off low Z6</name>
+    <description>3 x 6 x 1 min on, 1 min off</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50449997" PowerHigh="0.75" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.95449996" pace="1428186484" Cadence="95"/>
+        <SteadyState Duration="120" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.95449996" pace="1428186484" Cadence="95"/>
+        <SteadyState Duration="120" Power="0.50449997" pace="0"/>
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="1.2045" OffPower="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="300" Power="0.50449997" pace="1428186484"/>
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="1.2045" OffPower="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="300" Power="0.5" pace="1428186484"/>
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="1.2045" OffPower="0.50449997" pace="1428186484"/>
+        <Cooldown Duration="240" PowerLow="0.50449997" PowerHigh="0.40449998" pace="1428186484"/>
+    </workout>
+</workout_file>

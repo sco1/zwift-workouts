@@ -1,0 +1,47 @@
+<workout_file>
+    <author>J.Gomez (TeamQuad)</author>
+    <name>Race Simulation</name>
+    <description>race simulation</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.45450002" PowerHigh="0.64449996" pace="1428186484"/>
+        <SteadyState Duration="120" Power="0.50340503" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.8546595" pace="1428186484"/>
+        <SteadyState Duration="120" Power="0.43530464" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.95449996" pace="1428186484"/>
+        <FreeRide Duration="240" FlatRoad="1">
+            <textevent timeoffset="230" message="10 seconds, 9, 8..."/>
+        </FreeRide>
+        <SteadyState Duration="10" Power="1.4030466" pace="1428186484">
+            <textevent timeoffset="0" message="GO!"/>
+        </SteadyState>
+        <SteadyState Duration="20" Power="1.1844087" pace="1428186484"/>
+        <SteadyState Duration="40" Power="1.0446237" pace="1428186484"/>
+        <SteadyState Duration="240" Power="0.80448025" pace="1428186484"/>
+        <SteadyState Duration="20" Power="1.0945001" pace="1428186484"/>
+        <SteadyState Duration="60" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="120" Power="0.79014337" pace="1428186484"/>
+        <SteadyState Duration="15" Power="1.2545" pace="1428186484"/>
+        <SteadyState Duration="195" Power="0.95501798" pace="1428186484"/>
+        <SteadyState Duration="60" Power="1.0545" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.91917568" pace="1428186484"/>
+        <SteadyState Duration="240" Power="0.84449995" pace="1428186484"/>
+        <SteadyState Duration="10" Power="1.2445" pace="1428186484"/>
+        <SteadyState Duration="45" Power="1.1449821" pace="1428186484"/>
+        <SteadyState Duration="195" Power="0.82598567" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0768818" pace="1428186484"/>
+        <SteadyState Duration="60" Power="0.79014337" pace="1428186484"/>
+        <Ramp Duration="240" PowerLow="0.80806452" PowerHigh="1.1485664" pace="1428186484">
+            <textevent timeoffset="49" message="fight for position, last 5 min"/>
+        </Ramp>
+        <SteadyState Duration="80" Power="1.1127241" pace="1428186484">
+            <textevent timeoffset="0.99988312" message="Hold your position &amp; get ready"/>
+        </SteadyState>
+        <FreeRide Duration="30" FlatRoad="1">
+            <textevent timeoffset="1.0001841" message="0:30 to the line  -- SPRINT!"/>
+        </FreeRide>
+        <SteadyState Duration="120" Power="0.24892472" pace="1428186484"/>
+        <SteadyState Duration="480" Power="0.43172041" pace="1428186484"/>
+    </workout>
+</workout_file>
