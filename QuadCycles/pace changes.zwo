@@ -1,0 +1,20 @@
+<workout_file>
+    <author>J.Gomez (TeamQuad)</author>
+    <name>5 sets,5 efforts,5 levels</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.44964156" PowerHigh="0.74449998" pace="1428186484"/>
+        <IntervalsT Repeat="5" OnDuration="60" OffDuration="40" OnPower="1.0051972" OffPower="0.70449996" pace="1428186484"/>
+        <SteadyState Duration="140" Power="0.60449994" pace="1428186484"/>
+        <IntervalsT Repeat="5" OnDuration="50" OffDuration="50" OnPower="1.0545" OffPower="0.70449996" pace="1428186484"/>
+        <SteadyState Duration="130" Power="0.60449994" pace="1428186484"/>
+        <IntervalsT Repeat="5" OnDuration="40" OffDuration="60" OnPower="1.1055557" OffPower="0.70449996" pace="1428186484"/>
+        <SteadyState Duration="120" Power="0.60449994" pace="1428186484"/>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="70" OnPower="1.2045" OffPower="0.70449996" pace="1428186484"/>
+        <SteadyState Duration="115" Power="0.60449994" pace="1428186484"/>
+        <IntervalsT Repeat="5" OnDuration="20" OffDuration="80" OnPower="1.3026882" OffPower="0.70412183" pace="1428186484"/>
+        <Cooldown Duration="295" PowerLow="0.67449993" PowerHigh="0.36003584" pace="1428186484"/>
+    </workout>
+</workout_file>
