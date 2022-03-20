@@ -1,0 +1,41 @@
+<workout_file>
+    <author>Shayne Gaffney</author>
+    <name>VO2 Max -3 Minute</name>
+    <description>Adapted from Shayne Gaffney's 2022-03-17 workout
+
+10m free warmup into 5 spinups, a 6m Z2-Z6 build, and a 4m SS interval.
+
+The main workout is sets of 3m escalating VO2 max intervals, with Z1 and Z2 recoveries between intervals. Have fun, and don't forget the kick at the end!</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <FreeRide Duration="600" FlatRoad="1" Cadence="85"/>
+        <IntervalsT Repeat="3" OnDuration="60" OffDuration="30" OnPower="0.55449998" OffPower="0.78449994" pace="0" Cadence="85" CadenceResting="110"/>
+        <IntervalsT Repeat="2" OnDuration="60" OffDuration="30" OnPower="0.55449998" OffPower="0.83449996" pace="0" Cadence="85" CadenceResting="120"/>
+        <SteadyState Duration="120" Power="0.65449995" pace="0"/>
+        <SteadyState Duration="120" Power="0.81449997" pace="0"/>
+        <SteadyState Duration="60" Power="0.95449996" pace="0"/>
+        <SteadyState Duration="30" Power="1.0945001" pace="0"/>
+        <SteadyState Duration="30" Power="1.2545" pace="0"/>
+        <SteadyState Duration="120" Power="0.50449997" pace="0"/>
+        <SteadyState Duration="240" Power="0.90449995" pace="0"/>
+        <SteadyState Duration="120" Power="0.50449997" pace="0"/>
+        <SteadyState Duration="180" Power="1.0545" pace="0"/>
+        <SteadyState Duration="60" Power="0.50166667" pace="0"/>
+        <SteadyState Duration="240" Power="0.70449996" pace="0"/>
+        <SteadyState Duration="60" Power="0.50166667" pace="0"/>
+        <SteadyState Duration="180" Power="1.1045001" pace="0"/>
+        <SteadyState Duration="60" Power="0.5" pace="0"/>
+        <SteadyState Duration="240" Power="0.65449995" pace="0"/>
+        <SteadyState Duration="60" Power="0.50449997" pace="0"/>
+        <SteadyState Duration="180" Power="1.1535186" pace="0"/>
+        <SteadyState Duration="60" Power="0.50166667" pace="0"/>
+        <SteadyState Duration="240" Power="0.64981478" pace="0"/>
+        <SteadyState Duration="60" Power="0.50166667" pace="0"/>
+        <SteadyState Duration="180" Power="1.2045" pace="0"/>
+        <SteadyState Duration="30" Power="1.3535186" pace="0"/>
+        <FreeRide Duration="600" FlatRoad="1"/>
+    </workout>
+</workout_file>
