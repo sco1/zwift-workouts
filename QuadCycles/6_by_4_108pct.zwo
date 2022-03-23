@@ -1,0 +1,18 @@
+<workout_file>
+    <author>J.Gomez (TeamQuad)</author>
+    <name>6 by 4' on/off</name>
+    <description>6  x 4 min on/4 min off with warmup spins. Efforts above FTP, easy recovery between. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="345" PowerLow="0.40402296" PowerHigh="0.70449996" pace="1428186484" Cadence="90"/>
+        <SteadyState Duration="30.000002" Power="1.0045" pace="1428186484" Cadence="95"/>
+        <SteadyState Duration="90.000008" Power="0.5" pace="1428186484" Cadence="85"/>
+        <SteadyState Duration="30.000002" Power="1.0045" pace="1428186484" Cadence="95"/>
+        <SteadyState Duration="120" Power="0.50449997" pace="1428186484"/>
+        <IntervalsT Repeat="6" OnDuration="240" OffDuration="240" OnPower="1.0840502" OffPower="0.45322579" pace="1428186484"/>
+        <Cooldown Duration="105" PowerLow="0.45449999" PowerHigh="0.40449998" pace="1428186484"/>
+    </workout>
+</workout_file>
