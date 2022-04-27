@@ -1,0 +1,59 @@
+<workout_file>
+    <author>J.Hammers (TeamQuad)</author>
+    <name>Hill Progressions</name>
+    <description>Hill progressions with decending and acending power intervals</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.62449998" PowerHigh="0.74449998" pace="1428186484">
+            <textevent timeoffset="13" message="Start with an easy warmup"/>
+        </Warmup>
+        <SteadyState Duration="60" Power="0.85449994" pace="1428186484">
+            <textevent timeoffset="12.701243" message="Harder warmup intervals"/>
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="60" Power="0.55449998" pace="1428186484"/>
+        <SteadyState Duration="60" Power="0.85449994" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0945001" pace="1428186484"/>
+        <SteadyState Duration="60" Power="0.55449998" pace="1428186484"/>
+        <SteadyState Duration="60" Power="0.81449997" pace="1428186484"/>
+        <SteadyState Duration="15" Power="1.2545" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.50449997" pace="1428186484">
+            <textevent timeoffset="59" message="Last rest before hill intervals"/>
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.0945001" pace="1428186484"/>
+        <SteadyState Duration="120" Power="1.0045" pace="1428186484"/>
+        <SteadyState Duration="60" Power="0.81449997" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.60449994" pace="1428186484">
+            <textevent timeoffset="50" message="Not too bad, right?"/>
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.2545" pace="1428186484"/>
+        <SteadyState Duration="60" Power="1.0945001" pace="1428186484"/>
+        <SteadyState Duration="120" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="60" Power="0.81449997" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.60449994" pace="1428186484">
+            <textevent timeoffset="88" message="Maybe a tad harder?"/>
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.5545" pace="1428186484">
+            <textevent timeoffset="-91.146057" message="Tough start, eh?"/>
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.2545" pace="1428186484"/>
+        <SteadyState Duration="60" Power="1.0945001" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.90449995" pace="1428186484"/>
+        <SteadyState Duration="60" Power="0.81449997" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.60449994" pace="1428186484"/>
+        <SteadyState Duration="60" Power="0.81449997" pace="1428186484"/>
+        <SteadyState Duration="120" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="60" Power="1.0945001" pace="1428186484"/>
+        <SteadyState Duration="60" Power="1.2545" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.60449994" pace="1428186484"/>
+        <SteadyState Duration="120" Power="1.0945001" pace="1428186484"/>
+        <SteadyState Duration="120" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="105" Power="0.81449997" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.60449994" pace="1428186484"/>
+        <Ramp Duration="300" PowerLow="0.75449997" PowerHigh="0.45449999" pace="1428186484"/>
+        <FreeRide Duration="180" FlatRoad="1"/>
+    </workout>
+</workout_file>
