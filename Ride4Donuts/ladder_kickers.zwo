@@ -1,0 +1,35 @@
+<workout_file>
+    <name>Ladder Kickers</name>
+    <author>Matt Wilpers</author>
+    <description>Adapted from Matt Wilpers' 60m Power Zone Ride (2022-06-11)
+
+    This workout begins with a standard 10m warmup, 4x30s spinups, and a 4 minute Z2-Z6 build.
+
+    The working set is 2 rounds of 3 sets of escalating intervals. Between each set of intervals is a 3m rest, be sure to actually rest here!
+</description>
+    <sportType>bike</sportType>
+    <workout>
+        <FreeRide Duration="600" FlatRoad="0"/>
+        <IntervalsT pace="0" Repeat="4" OnDuration="30" OffDuration="30" OnPower="0.500" OffPower="0.810" Cadence="85" CadenceResting="120"/>
+        <SteadyState Duration="60" Power="0.500" pace="0"/>
+        <SteadyState Duration="90" Power="0.650" pace="0"/>
+        <SteadyState Duration="60" Power="0.810" pace="0"/>
+        <SteadyState Duration="30" Power="0.950" pace="0"/>
+        <SteadyState Duration="30" Power="1.090" pace="0"/>
+        <SteadyState Duration="30" Power="1.250" pace="0"/>
+        <SteadyState Duration="60" Power="0.500" pace="0"/>
+        <IntervalsT pace="0" Repeat="3" OnDuration="90" OffDuration="30" OnPower="0.650" OffPower="1.250"/>
+        <SteadyState Duration="180" Power="0.650" pace="0"/>
+        <IntervalsT pace="0" Repeat="3" OnDuration="90" OffDuration="30" OnPower="0.810" OffPower="1.250"/>
+        <SteadyState Duration="180" Power="0.650" pace="0"/>
+        <IntervalsT pace="0" Repeat="2" OnDuration="90" OffDuration="30" OnPower="0.950" OffPower="1.250"/>
+        <SteadyState Duration="180" Power="0.500" pace="0"/>
+        <IntervalsT pace="0" Repeat="3" OnDuration="90" OffDuration="30" OnPower="0.650" OffPower="1.250"/>
+        <SteadyState Duration="180" Power="0.650" pace="0"/>
+        <IntervalsT pace="0" Repeat="3" OnDuration="90" OffDuration="30" OnPower="0.810" OffPower="1.250"/>
+        <SteadyState Duration="180" Power="0.650" pace="0"/>
+        <IntervalsT pace="0" Repeat="2" OnDuration="90" OffDuration="30" OnPower="0.950" OffPower="1.250"/>
+        <SteadyState Duration="180" Power="0.500" pace="0"/>
+        <FreeRide Duration="600" FlatRoad="0"/>
+    </workout>
+</workout_file>

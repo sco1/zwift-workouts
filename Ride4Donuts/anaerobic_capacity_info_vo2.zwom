@@ -1,0 +1,43 @@
+META {
+    AUTHOR "Kevin Poulton",
+    NAME "TEST Anaerobic Capacity Into VO2",
+    DESCRIPTION "Adapted from Kevin Poulton's 2022-02-12 workout
+
+    10m free warmup into 4 spinups, a 6m Z2-Z6 build, and a 4m SS interval.
+    The main workout opens with 6x2m anaerobic capacity efforts w/Z2 recoveries and concludes with a 6m ramped VO2 effort.",
+    TAGS "#INTERVALS",
+    FTP 275,
+}
+
+FREE {DURATION 10:00}
+INTERVALS {
+    REPEAT 4,
+    DURATION 0:30 -> 0:30,
+    POWER Z1 -> Z3,
+    CADENCE 85 -> 120,
+}
+SEGMENT {DURATION 2:00, POWER Z2}
+SEGMENT {DURATION 2:00, POWER Z3}
+SEGMENT {DURATION 1:00, POWER Z4}
+SEGMENT {DURATION 0:30, POWER Z5}
+SEGMENT {DURATION 0:30, POWER Z6}
+SEGMENT {DURATION 2:00, POWER Z1}
+
+SEGMENT {DURATION 4:00, POWER Z4}
+SEGMENT {DURATION 2:00, POWER Z1}
+
+START_REPEAT {REPEAT 6}
+RAMP {
+    DURATION 2:00,
+    POWER 120% -> 140%
+}
+SEGMENT {DURATION 2:00, POWER Z2}
+END_REPEAT {}
+
+SEGMENT {DURATION 5:00, POWER Z1}
+RAMP {
+    DURATION 6:00,
+    POWER 105% -> 125%
+}
+
+FREE {DURATION 10:00}

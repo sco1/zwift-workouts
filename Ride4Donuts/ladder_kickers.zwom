@@ -1,0 +1,49 @@
+META {
+    NAME "Ladder Kickers",
+    AUTHOR "Matt Wilpers",
+    DESCRIPTION "Adapted from Matt Wilpers' 60m Power Zone Ride (2022-06-11)
+
+    This workout begins with a standard 10m warmup, 4x30s spinups, and a 4 minute Z2-Z6 build.
+
+    The working set is 2 rounds of 3 sets of escalating intervals. Between each set of intervals is a 3m rest, be sure to actually rest here!
+    ",
+}
+FREE {DURATION 10:00}
+INTERVALS {
+    REPEAT 4,
+    DURATION 0:30 -> 0:30,
+    POWER Z1 -> Z3,
+    CADENCE 85 -> 120,
+}
+SEGMENT {DURATION 1:00, POWER Z1}
+
+SEGMENT {DURATION 1:30, POWER Z2}
+SEGMENT {DURATION 1:00, POWER Z3}
+SEGMENT {DURATION 0:30, POWER Z4}
+SEGMENT {DURATION 0:30, POWER Z5}
+SEGMENT {DURATION 0:30, POWER Z6}
+
+SEGMENT {DURATION 1:00, POWER Z1}
+
+START_REPEAT {REPEAT 2}
+INTERVALS {
+    REPEAT 3,
+    DURATION 1:30 -> 0:30,
+    POWER Z2 -> Z6
+}
+SEGMENT {DURATION 3:00, POWER Z2}
+INTERVALS {
+    REPEAT 3,
+    DURATION 1:30 -> 0:30,
+    POWER Z3 -> Z6
+}
+SEGMENT {DURATION 3:00, POWER Z2}
+INTERVALS {
+    REPEAT 2,
+    DURATION 1:30 -> 0:30,
+    POWER Z4 -> Z6
+}
+SEGMENT {DURATION 3:00, POWER Z1}
+END_REPEAT {}
+
+FREE {DURATION 10:00}

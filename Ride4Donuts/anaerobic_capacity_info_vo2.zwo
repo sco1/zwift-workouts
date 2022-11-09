@@ -1,0 +1,39 @@
+<workout_file>
+    <author>Kevin Poulton</author>
+    <name>TEST Anaerobic Capacity Into VO2</name>
+    <description>Adapted from Kevin Poulton's 2022-02-12 workout
+
+    10m free warmup into 4 spinups, a 6m Z2-Z6 build, and a 4m SS interval.
+    The main workout opens with 6x2m anaerobic capacity efforts w/Z2 recoveries and concludes with a 6m ramped VO2 effort.</description>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <sportType>bike</sportType>
+    <workout>
+        <FreeRide Duration="600" FlatRoad="0"/>
+        <IntervalsT pace="0" Repeat="4" OnDuration="30" OffDuration="30" OnPower="0.500" OffPower="0.810" Cadence="85" CadenceResting="120"/>
+        <SteadyState Duration="120" Power="0.650" pace="0"/>
+        <SteadyState Duration="120" Power="0.810" pace="0"/>
+        <SteadyState Duration="60" Power="0.950" pace="0"/>
+        <SteadyState Duration="30" Power="1.090" pace="0"/>
+        <SteadyState Duration="30" Power="1.250" pace="0"/>
+        <SteadyState Duration="120" Power="0.500" pace="0"/>
+        <SteadyState Duration="240" Power="0.950" pace="0"/>
+        <SteadyState Duration="120" Power="0.500" pace="0"/>
+        <Ramp Duration="120" pace="0" PowerLow="1.200" PowerHigh="1.400"/>
+        <SteadyState Duration="120" Power="0.650" pace="0"/>
+        <Ramp Duration="120" pace="0" PowerLow="1.200" PowerHigh="1.400"/>
+        <SteadyState Duration="120" Power="0.650" pace="0"/>
+        <Ramp Duration="120" pace="0" PowerLow="1.200" PowerHigh="1.400"/>
+        <SteadyState Duration="120" Power="0.650" pace="0"/>
+        <Ramp Duration="120" pace="0" PowerLow="1.200" PowerHigh="1.400"/>
+        <SteadyState Duration="120" Power="0.650" pace="0"/>
+        <Ramp Duration="120" pace="0" PowerLow="1.200" PowerHigh="1.400"/>
+        <SteadyState Duration="120" Power="0.650" pace="0"/>
+        <Ramp Duration="120" pace="0" PowerLow="1.200" PowerHigh="1.400"/>
+        <SteadyState Duration="120" Power="0.650" pace="0"/>
+        <SteadyState Duration="300" Power="0.500" pace="0"/>
+        <Ramp Duration="360" pace="0" PowerLow="1.050" PowerHigh="1.250"/>
+        <FreeRide Duration="600" FlatRoad="0"/>
+    </workout>
+</workout_file>
