@@ -1,0 +1,23 @@
+<workout_file>
+    <name>FTP Test, Baseline</name>
+    <author>Kolie Moore</author>
+    <description>Empirical Cycling's Baseline FTP Test
+
+    This workout does not contain a warmup/cooldown, as your new FTP will be equal to the average power for the entire test.
+
+    The test consists of 3 segments: an initial segment below the target FTP, a segment at the target FTP, and finally a gradual ramp until exhaustion.
+</description>
+    <tags>
+        <tag name="FTP"/>
+        <tag name="test"/>
+        <tag name="empiricalcycling"/>
+    </tags>
+    <sportType>bike</sportType>
+    <workout>
+        <SteadyState Duration="600" Power="0.920" pace="0"/>
+        <SteadyState Duration="900" Power="1.000" pace="0"/>
+        <Cooldown Duration="900" pace="0" PowerLow="1.000" PowerHigh="1.250">
+            <textevent timeoffset="0" message="Power targets are just a suggestion, gradually increase until exhaustion"/>
+        </Cooldown>
+    </workout>
+</workout_file>

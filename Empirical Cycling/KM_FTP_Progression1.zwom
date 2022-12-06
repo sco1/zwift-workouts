@@ -1,0 +1,26 @@
+META {
+    NAME "FTP Test, Baseline",
+    AUTHOR "Kolie Moore",
+    DESCRIPTION "Empirical Cycling's Baseline FTP Test
+
+    This workout does not contain a warmup/cooldown, as your new FTP will be equal to the average power for the entire test.
+
+    The test consists of 3 segments: an initial segment below the target FTP, a segment at the target FTP, and finally a gradual ramp until exhaustion.
+    ",
+    TAGS "#FTP #test #empiricalcycling",
+    ; For this test protocol, set FTP to your testing target
+    FTP 290,
+}
+SEGMENT {
+    DURATION 10:00,
+    POWER 92%,
+}
+SEGMENT {
+    DURATION 15:00,
+    POWER 100%,
+}
+RAMP {
+    DURATION 15:00,
+    POWER 100% -> 125%
+    @0:00 "Power targets are just a suggestion, gradually increase until exhaustion"
+}
