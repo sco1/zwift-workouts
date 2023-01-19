@@ -1,7 +1,7 @@
 <workout_file>
-    <name>FTP Test, Baseline</name>
+    <name>FTP Test, Progression 2</name>
     <author>Kolie Moore</author>
-    <description>Empirical Cycling's FTP Test, Progression 1
+    <description>Empirical Cycling's FTP Test, Progression 2
 
     This workout does not contain a warmup/cooldown, as your new FTP will be equal to the average power for the entire test.
 
@@ -16,7 +16,7 @@
     <workout>
         <SteadyState Duration="600" Power="0.970" pace="0"/>
         <SteadyState Duration="2400" Power="1.000" pace="0"/>
-        <SteadyState Duration="300" Power="1.150" pace="0">
+        <SteadyState Duration="300" Power="1.350" pace="0">
             <textevent timeoffset="0" message="5 minutes all out! Power target is only a suggestion."/>
         </SteadyState>
     </workout>

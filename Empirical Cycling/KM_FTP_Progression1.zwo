@@ -1,5 +1,5 @@
 <workout_file>
-    <name>FTP Test, Baseline</name>
+    <name>FTP Test, Progression 1</name>
     <author>Kolie Moore</author>
     <description>Empirical Cycling's Baseline FTP Test
 
@@ -15,9 +15,9 @@
     <sportType>bike</sportType>
     <workout>
         <SteadyState Duration="600" Power="0.920" pace="0"/>
-        <SteadyState Duration="900" Power="1.000" pace="0"/>
-        <Cooldown Duration="900" pace="0" PowerLow="1.000" PowerHigh="1.250">
+        <SteadyState Duration="1500" Power="1.000" pace="0"/>
+        <Ramp Duration="600" pace="0" PowerLow="1.000" PowerHigh="1.350">
             <textevent timeoffset="0" message="Power targets are just a suggestion, gradually increase until exhaustion"/>
-        </Cooldown>
+        </Ramp>
     </workout>
 </workout_file>

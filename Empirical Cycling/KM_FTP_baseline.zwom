@@ -20,7 +20,7 @@ SEGMENT {
     POWER 100%,
 }
 RAMP {
-    DURATION 15:00,
-    POWER 100% -> 125%
+    DURATION 10:00,
+    POWER 100% -> 135%
     @0:00 "Power targets are just a suggestion, gradually increase until exhaustion"
 }

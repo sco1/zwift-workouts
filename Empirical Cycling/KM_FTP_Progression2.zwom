@@ -1,7 +1,7 @@
 META {
-    NAME "FTP Test, Baseline",
+    NAME "FTP Test, Progression 2",
     AUTHOR "Kolie Moore",
-    DESCRIPTION "Empirical Cycling's FTP Test, Progression 1
+    DESCRIPTION "Empirical Cycling's FTP Test, Progression 2
 
     This workout does not contain a warmup/cooldown, as your new FTP will be equal to the average power for the entire test.
 
@@ -21,6 +21,6 @@ SEGMENT {
 }
 SEGMENT {
     DURATION 5:00,
-    POWER 115%
+    POWER 135%
     @0:00 "5 minutes all out! Power target is only a suggestion."
 }

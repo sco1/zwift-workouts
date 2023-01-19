@@ -1,0 +1,32 @@
+<workout_file>
+    <author>J.Gomez (TeamQuad)</author>
+    <name>3x10 min over-unders</name>
+    <description>Some spinups to get the blood flowing, then 3 sets of over-under (85% FTP - 103-108 % FTP, 30 seconds  each, with final kick,  10  min sets with 4 min recoveries.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="480" PowerLow="0.40449998" PowerHigh="0.60449994" pace="1428186484" Cadence="85"/>
+        <SteadyState Duration="30" Power="0.70449996" pace="1428186484" Cadence="85"/>
+        <SteadyState Duration="60" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.70449996" pace="1428186484" Cadence="90"/>
+        <SteadyState Duration="60" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.75449997" pace="1428186484" Cadence="95"/>
+        <SteadyState Duration="60" Power="0.5" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.80448025" pace="1428186484" Cadence="100"/>
+        <SteadyState Duration="180" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="60" Power="0.85449994" pace="1428186484"/>
+        <IntervalsT Repeat="4" OnDuration="60" OffDuration="60" OnPower="1.0332677" OffPower="0.85610235" pace="1428186484"/>
+        <SteadyState Duration="60" Power="1.1045001" pace="1428186484"/>
+        <SteadyState Duration="240" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.85449994" pace="1428186484"/>
+        <IntervalsT Repeat="9" OnDuration="30" OffDuration="30" OnPower="1.0545" OffPower="0.85449994" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.3045" pace="1428186484"/>
+        <SteadyState Duration="240" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.85449994" pace="1428186484"/>
+        <IntervalsT Repeat="9" OnDuration="30" OffDuration="30" OnPower="1.0845" OffPower="0.85449994" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.4045" pace="1428186484"/>
+        <Cooldown Duration="360" PowerLow="0.50449997" PowerHigh="0.40449998" pace="1428186484"/>
+    </workout>
+</workout_file>
