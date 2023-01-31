@@ -1,0 +1,44 @@
+<workout_file>
+    <author>J.Gomez (TeamQuad)</author>
+    <name>3x12 low SS with short surges</name>
+    <description>3  x 12 minutes at 90% , each with  a few randomly timed  15-30 second surges @ 110-125% </description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="180.00002" PowerLow="0.50449991" PowerHigh="0.70449996" pace="1428186484"/>
+        <SteadyState Duration="30.000002" Power="0.95449996" pace="1428186484" Cadence="95"/>
+        <SteadyState Duration="120.00001" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30.000002" Power="1.0045" pace="1428186484" Cadence="100"/>
+        <SteadyState Duration="120.00001" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="120" Power="0.90449995" pace="1428186484"/>
+        <SteadyState Duration="15" Power="1.0945001" pace="1428186484"/>
+        <SteadyState Duration="180.00002" Power="0.90449995" pace="1428186484"/>
+        <SteadyState Duration="15" Power="1.1545" pace="1428186484"/>
+        <SteadyState Duration="180.00002" Power="0.90449995" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0945001" pace="1428186484"/>
+        <SteadyState Duration="165.00002" Power="0.90449995" pace="1428186484"/>
+        <SteadyState Duration="15" Power="1.1049882" pace="1428186484"/>
+        <SteadyState Duration="300" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.90449995" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0962598" pace="1428186484"/>
+        <SteadyState Duration="105.00001" Power="0.90449995" pace="1428186484"/>
+        <SteadyState Duration="15" Power="1.1413816" pace="1428186484"/>
+        <SteadyState Duration="120.00001" Power="0.90449995" pace="1428186484"/>
+        <SteadyState Duration="15" Power="1.205914" pace="1428186484"/>
+        <SteadyState Duration="90.000008" Power="0.90449995" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0535821" pace="1428186484"/>
+        <SteadyState Duration="135" Power="0.90449995" pace="1428186484"/>
+        <SteadyState Duration="300" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="40" Power="0.90516394" pace="1428186484"/>
+        <SteadyState Duration="20" Power="1.2045" pace="1428186484"/>
+        <SteadyState Duration="120.00001" Power="0.90265745" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0585725" pace="1428186484"/>
+        <SteadyState Duration="315" Power="0.9053883" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0523776" pace="1428186484"/>
+        <SteadyState Duration="120" Power="0.90449995" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0945001" pace="1428186484"/>
+        <SteadyState Duration="15" Power="1.3045" pace="1428186484"/>
+        <FreeRide Duration="60.000004" FlatRoad="1"/>
+        <Cooldown Duration="300" PowerLow="0.60413384" PowerHigh="0.40334642" pace="1428186484"/>
+    </workout>
+</workout_file>
