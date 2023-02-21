@@ -1,0 +1,43 @@
+<workout_file>
+    <author>J.Gomez (TeamQuad)</author>
+    <name>dirty dozen</name>
+    <description>12 efforts- three in zone 3, five in zone 4, and four in zone 5. Efforts start @ 95 % FTP for 5 min, and rests are 1/2 the length of the previous effort. Efforts get shorter but pregressively harder, finishing with a 15 second effort at 167% FTP. Your legs will be cooked by the end of this one. </description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.40449998" PowerHigh="0.75449997" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0945001" pace="1428186484" Cadence="95"/>
+        <SteadyState Duration="55.000004" Power="0.55449998" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.2545" pace="1428186484" Cadence="95"/>
+        <SteadyState Duration="120" Power="0.55449998" pace="1428186484"/>
+        <SteadyState Duration="300" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="150" Power="0.5" pace="1428186484"/>
+        <SteadyState Duration="270" Power="0.97449994" pace="1428186484"/>
+        <SteadyState Duration="135" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="240.00002" Power="1.0052921" pace="1428186484"/>
+        <SteadyState Duration="120" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="210.00002" Power="1.0545" pace="1428186484"/>
+        <SteadyState Duration="105.00001" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="180" Power="1.0845" pace="1428186484"/>
+        <SteadyState Duration="90" Power="0.49449998" pace="1428186484"/>
+        <SteadyState Duration="150" Power="1.1245" pace="1428186484"/>
+        <SteadyState Duration="75" Power="0.5" pace="1428186484"/>
+        <SteadyState Duration="120" Power="1.1545" pace="1428186484"/>
+        <SteadyState Duration="60.000004" Power="0.50361216" pace="1428186484"/>
+        <SteadyState Duration="90" Power="1.1845" pace="1428186484"/>
+        <SteadyState Duration="45.000004" Power="0.5" pace="1428186484"/>
+        <SteadyState Duration="60" Power="1.2245001" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.5" pace="1428186484"/>
+        <SteadyState Duration="45" Power="1.3045" pace="1428186484"/>
+        <SteadyState Duration="23" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.4045" pace="1428186484">
+            <textevent timeoffset="13.000131" message="OK, one more!"/>
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="10" Power="1.6750001" pace="1428186484"/>
+        <FreeRide Duration="120" FlatRoad="1"/>
+        <Cooldown Duration="300" PowerLow="0.50449997" PowerHigh="0.3845" pace="1428186484"/>
+    </workout>
+</workout_file>

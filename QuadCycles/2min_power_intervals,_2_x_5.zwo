@@ -7,14 +7,16 @@
         <tag name="INTERVALS"/>
     </tags>
     <workout>
-        <Warmup Duration="360" PowerLow="0.43449998" PowerHigh="0.60449994" pace="1428186484" Cadence="85"/>
-        <SteadyState Duration="30" Power="0.81449997" pace="1428186484" Cadence="95"/>
-        <SteadyState Duration="120" Power="0.50449997" pace="1428186484" Cadence="85"/>
-        <SteadyState Duration="30" Power="0.81449997" pace="1428186484" Cadence="100"/>
-        <SteadyState Duration="120" Power="0.5" pace="1428186484"/>
-        <IntervalsT Repeat="5" OnDuration="120" OffDuration="120" OnPower="1.2045" OffPower="0.40449998" pace="1428186484"/>
-        <SteadyState Duration="240" Power="0.40449998" pace="1428186484"/>
-        <IntervalsT Repeat="5" OnDuration="120" OffDuration="120" OnPower="1.2045" OffPower="0.40449998" pace="1428186484"/>
-        <Ramp Duration="300" PowerLow="0.40449998" PowerHigh="0.40449998" pace="1428186484"/>
+        <Warmup Duration="300" PowerLow="0.43449998" PowerHigh="0.60449994" pace="1428186484" Cadence="85"/>
+        <SteadyState Duration="30" Power="0.90449995" pace="1428186484" Cadence="95"/>
+        <SteadyState Duration="60" Power="0.50449997" pace="1428186484" Cadence="85"/>
+        <SteadyState Duration="30" Power="0.90449995" pace="1428186484" Cadence="100"/>
+        <IntervalsT Repeat="5" OnDuration="120" OffDuration="120" OnPower="0.40449998" OffPower="1.2045" pace="1428186484"/>
+        <SteadyState Duration="60" Power="0.20449999" pace="0"/>
+        <Ramp Duration="120" PowerLow="0.20449999" PowerHigh="0.40449998" pace="1428186484"/>
+        <IntervalsT Repeat="5" OnDuration="120" OffDuration="120" OnPower="0.40449998" OffPower="1.2045" pace="1428186484"/>
+        <SteadyState Duration="120" Power="0.20449999" pace="0"/>
+        <Ramp Duration="120" PowerLow="0.20449999" PowerHigh="0.40449998" pace="1428186484" Cadence="85"/>
+        <Cooldown Duration="240" PowerLow="0.40449998" PowerHigh="0.20449999" pace="1428186484"/>
     </workout>
 </workout_file>
