@@ -1,0 +1,39 @@
+<workout_file>
+    <author>J.Gomez (TeamQuad)</author>
+    <name>95% w hard starts &amp; bumps</name>
+    <description>4 x 10min near threshold with hard 30 second starts. First 0:30 @ 130% FTP, then settle into 4:30 @ 95% before a brief 0:30 bump @ 105%, then settle again for the last 4:30 @ 95%.hreshold w hard starts. 4 sets with 3 min recovery between.</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="240" PowerLow="0.45449999" PowerHigh="0.65449995" pace="1428186484">
+            <textevent timeoffset="235" message="now 1min to get a feel for 95%"/>
+        </Warmup>
+        <SteadyState Duration="60" Power="0.95449996" pace="1428186484">
+            <textevent timeoffset="50" message="You&apos;ll be @95% for 10min, 4X"/>
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.60449994" pace="1428186484">
+            <textevent timeoffset="5" message="...with the first 30s @ 130%..."/>
+            <textevent timeoffset="20" message="&amp; a 30s bump to 105% halfway."/>
+        </SteadyState>
+        <SteadyState Duration="30" Power="1.3045" pace="1428186484"/>
+        <SteadyState Duration="270" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0545" pace="1428186484"/>
+        <SteadyState Duration="270" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.3045" pace="1428186484"/>
+        <SteadyState Duration="270" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0545" pace="1428186484"/>
+        <SteadyState Duration="270" Power="0.94999999" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.3045" pace="1428186484"/>
+        <SteadyState Duration="270" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0545" pace="1428186484"/>
+        <SteadyState Duration="270" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.3045" pace="1428186484"/>
+        <SteadyState Duration="270" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="30" Power="1.0545" pace="1428186484"/>
+        <SteadyState Duration="270" Power="0.95449996" pace="1428186484"/>
+        <Cooldown Duration="240" PowerLow="0.60449994" PowerHigh="0.2545" pace="1428186484"/>
+    </workout>
+</workout_file>
