@@ -1,0 +1,52 @@
+<workout_file>
+    <author>J.Gomez (TeamQuad)</author>
+    <name>7x3 VO2max</name>
+    <description>Seven 3 minute V02max intervals (115% FTP). These efforts should be about as hard as you can go for 3 - 4 minutes. The recovery times get slightly longer after each effort, so that we can hopefully finish all 7. </description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45449999" PowerHigh="0.65449995" pace="1428186484">
+            <textevent timeoffset="159" message="7 HARD efforts today"/>
+            <textevent timeoffset="197" message="VO2 max intervals hurt"/>
+            <textevent timeoffset="205" message="in a good way."/>
+        </Warmup>
+        <SteadyState Duration="30" Power="0.95449996" pace="1428186484">
+            <textevent timeoffset="1" message="just increase your cadence"/>
+        </SteadyState>
+        <SteadyState Duration="60" Power="0.50449997" pace="1428186484"/>
+        <SteadyState Duration="30" Power="0.95449996" pace="1428186484"/>
+        <SteadyState Duration="180" Power="0.50449997" pace="1428186484">
+            <textevent timeoffset="160" message="get ready for effort #1"/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.1545" pace="1428186484">
+            <textevent timeoffset="10" message="3 minutes @ HARD"/>
+            <textevent timeoffset="89" message="halfway there"/>
+            <textevent timeoffset="164" message="ready for this to end?"/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55449998" pace="1428186484" Cadence="85">
+            <textevent timeoffset="58" message="this is a 3 min recovery"/>
+            <textevent timeoffset="140" message="next recovery = 15 secs longer"/>
+            <textevent timeoffset="150" message="you&apos;ll thank me later."/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.1545" pace="1428186484"/>
+        <SteadyState Duration="195" Power="0.55449998" pace="1428186484"/>
+        <SteadyState Duration="180" Power="1.1545" pace="1428186484"/>
+        <SteadyState Duration="210" Power="0.55449998" pace="1428186484"/>
+        <SteadyState Duration="180" Power="1.1545" pace="1428186484"/>
+        <SteadyState Duration="220" Power="0.55449998" pace="1428186484">
+            <textevent timeoffset="10" message="4 down, 3 to go."/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.1545" pace="1428186484"/>
+        <SteadyState Duration="230" Power="0.55449998" pace="1428186484"/>
+        <SteadyState Duration="180" Power="1.1545" pace="1428186484"/>
+        <SteadyState Duration="240" Power="0.55449998" pace="1428186484">
+            <textevent timeoffset="29" message="a full 4:00 til the  last one"/>
+            <textevent timeoffset="45" message="...so enjoy."/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.1545" pace="1428186484"/>
+        <FreeRide Duration="60" FlatRoad="1">
+            <textevent timeoffset="10" message="Just spin for 1 min"/>
+        </FreeRide>
+        <Cooldown Duration="345" PowerLow="0.55449998" PowerHigh="0.3545" pace="1428186484"/>
+    </workout>
+</workout_file>
