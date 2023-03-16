@@ -1,0 +1,27 @@
+<workout_file>
+    <author>J.Gomez (TeamQuad)</author>
+    <name>2 x20 mostly overs</name>
+    <description>similar to 2x20 @ FTP, but as long over, short unders</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.4555769" PowerHigh="0.65557688" pace="0"/>
+        <SteadyState Duration="30" Power="0.95449996" pace="0"/>
+        <SteadyState Duration="60" Power="0.50449997" pace="0"/>
+        <SteadyState Duration="30" Power="0.95449996" pace="0"/>
+        <SteadyState Duration="120" Power="0.50449997" pace="0"/>
+        <SteadyState Duration="300" Power="1.0445" pace="0"/>
+        <SteadyState Duration="150" Power="0.76449996" pace="0"/>
+        <SteadyState Duration="300" Power="1.0445" pace="0"/>
+        <SteadyState Duration="150" Power="0.76449996" pace="0"/>
+        <SteadyState Duration="300" Power="1.0440385" pace="0"/>
+        <FreeRide Duration="300" FlatRoad="254"/>
+        <SteadyState Duration="300" Power="1.0445" pace="0"/>
+        <SteadyState Duration="150" Power="0.76449996" pace="0"/>
+        <SteadyState Duration="300" Power="1.0445" pace="0"/>
+        <SteadyState Duration="150" Power="0.76449996" pace="0"/>
+        <SteadyState Duration="300" Power="1.0445" pace="0"/>
+        <FreeRide Duration="60" FlatRoad="254"/>
+        <Cooldown Duration="300" PowerLow="0.55449998" PowerHigh="0.3545" pace="0"/>
+    </workout>
+</workout_file>
