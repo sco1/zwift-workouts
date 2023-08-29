@@ -1,0 +1,23 @@
+<workout_file>
+    <name>2x4x1m Anaerobic</name>
+    <author>Ride4Donuts</author>
+    <description>This workout begins with a standard 10m warmup, 4x30s spinups, and a 4 minute Z2-Z7 build.
+
+    The working set is 2 rounds of 4x1m anerobic intervals. Be sure to actually rest during the rest intervals! At the conclusion of the intervals, a long Z2 block is provided for some nice cooldown volume.</description>
+    <sportType>bike</sportType>
+    <workout>
+        <FreeRide Duration="600" FlatRoad="0"/>
+        <IntervalsT pace="0" Repeat="4" OnDuration="30" OffDuration="30" OnPower="0.500" OffPower="0.810" Cadence="85" CadenceResting="120"/>
+        <SteadyState Duration="60" Power="0.500" pace="0"/>
+        <SteadyState Duration="90" Power="0.650" pace="0"/>
+        <SteadyState Duration="60" Power="0.810" pace="0"/>
+        <SteadyState Duration="30" Power="0.950" pace="0"/>
+        <SteadyState Duration="30" Power="1.090" pace="0"/>
+        <SteadyState Duration="15" Power="1.250" pace="0"/>
+        <SteadyState Duration="15" Power="1.500" pace="0"/>
+        <IntervalsT pace="0" Repeat="4" OnDuration="300" OffDuration="60" OnPower="0.500" OffPower="1.500"/>
+        <SteadyState Duration="300" Power="0.500" pace="0"/>
+        <IntervalsT pace="0" Repeat="4" OnDuration="300" OffDuration="60" OnPower="0.500" OffPower="1.500"/>
+        <SteadyState Duration="2700" Power="0.650" pace="0"/>
+    </workout>
+</workout_file>

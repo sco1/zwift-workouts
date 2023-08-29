@@ -1,0 +1,40 @@
+META {
+    NAME "2x4x1m Anaerobic",
+    AUTHOR "Ride4Donuts",
+    DESCRIPTION "This workout begins with a standard 10m warmup, 4x30s spinups, and a 4 minute Z2-Z7 build.
+
+    The working set is 2 rounds of 4x1m anerobic intervals. Be sure to actually rest during the rest intervals! At the conclusion of the intervals, a long Z2 block is provided for some nice cooldown volume.",
+}
+
+; Standard Warmup
+FREE {DURATION 10:00}
+INTERVALS {
+    REPEAT 4,
+    DURATION 0:30 -> 0:30,
+    POWER Z1 -> Z3,
+    CADENCE 85 -> 120,
+}
+SEGMENT {DURATION 1:00, POWER Z1}
+
+SEGMENT {DURATION 1:30, POWER Z2}
+SEGMENT {DURATION 1:00, POWER Z3}
+SEGMENT {DURATION 0:30, POWER Z4}
+SEGMENT {DURATION 0:30, POWER Z5}
+SEGMENT {DURATION 0:15, POWER Z6}
+SEGMENT {DURATION 0:15, POWER Z7}
+
+; Working sets
+INTERVALS {
+    REPEAT 4,
+    DURATION 5:00 -> 1:00,
+    POWER Z1 -> Z7
+}
+SEGMENT {DURATION 5:00, POWER Z1}
+INTERVALS {
+    REPEAT 4,
+    DURATION 5:00 -> 1:00,
+    POWER Z1 -> Z7
+}
+
+; Cooldown
+SEGMENT {DURATION 45:00, POWER Z2}
